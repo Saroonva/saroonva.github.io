@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/* 
+	BPA Styles Sheet
+	Author: Jacob Doerge, Joey Georgio, Jacob Hughes.
+	Date: 10/5/18
+	
+	Filename: BPA_Dress_styles.css
+
+*/
+
+/* Animation Styles */
+
+/* Html/Body Styles */
+p, h1, h2 {
+	text-align: center;
+}
+
+h2 {
+	display: block;
+	padding: 4px;
+	margin: auto;
+	text-decoration: underline;
+	border-radius: 20px;
+}
+
+p {
+	font-size: 1.3em;
+}
+
+
+div#Content {
+	background-color: rgba(38, 117, 226, 0.8);
+	border-radius: 30px;
+	padding: 10px;
+	box-shadow: 1px 1px 30px black;
+}
+
+/* Nav Styles */
+
+/* Division Styles */
+
+/* Footer Styles */

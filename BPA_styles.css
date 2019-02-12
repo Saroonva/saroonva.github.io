@@ -1,0 +1,261 @@
+@charset "utf-8";
+
+/* 
+	BPA Styles Sheet
+	Author: Jacob Doerge, Joey Georgio, Jacob Hughes.
+	Date: 10/5/18
+	
+	Filename: BPA_styles.css
+
+*/
+
+
+.icon-bar {
+  width: 30%;
+  background-color: rgba(136, 96, 208, 0.8);
+  overflow: auto;
+  float: right;
+  position: absolute;
+  top: 2%;
+  right: 1%;
+  border-radius: 30px;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 15px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+	background-color: rgb(230, 118, 247);
+}
+
+div.icon-bar img{
+	width: 30%;
+}
+
+div.icon-bar a{
+	font-size: 80%;
+}
+
+
+.active {
+  background-color: #4CAF50;
+}
+
+/* Animation Styles */
+@keyframes Nav {
+    from {background-image: radial-gradient(rgba(90, 185, 234, 0.9), rgba(90, 185, 234,0) 40% );}
+    to {background-image: radial-gradient(rgba(90, 185, 234, 0.9), rgba(90, 185, 234,0) 60% );}
+}
+
+@keyframes NavBright {
+    from {background-image: radial-gradient(rgba(90, 185, 234, 0.9), rgba(90, 185, 234,0) 40% );}
+    to {background-image: radial-gradient(rgba(90, 185, 234, 0.9), rgba(90, 185, 234,0) 60% );} 
+}
+
+nav a:hover {
+    animation-name: NavBright;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+
+#myBtn {
+  display: none; 
+  position: fixed;
+  bottom: 5%; 
+  right: 5%; 
+  z-index: 99; 
+  border: none;
+  outline: none; 
+  background-color: rgba(38, 117, 226, 0.8);
+  color: white; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 20px; 
+}
+
+#myBtn:hover {
+  background-color: rgb(230, 118, 247);
+}
+
+
+
+/* Html/Body Styles */
+html {
+    background-image: radial-gradient(rgba(86, 128, 233, 1), rgba(100, 206, 235, 1), rgba(193, 200, 228, 1));
+	font-family: Georgia;
+	scroll-behavior: smooth;
+}
+body {
+	padding: 5% 5% 5% 5%;
+	background-image: radial-gradient(rgba(90, 185, 234, 0.5), rgba(86, 128, 233, 0.43), rgba(193, 200, 228, 0.4), rgba(193, 200, 228, 0)), url(BPA_Back.png);
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-radius: 20px;
+	background-color: rgba(126, 52, 229, 0.45) ;
+}
+
+body h1 {
+    text-shadow: 1px 1px rgba(193, 200, 228, 0.4);
+	display: block;
+	padding:  1% 1% 1% 1%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 30px;
+	background-image: linear-gradient(to right, #8860D0, rgba(193, 200, 228, 0.1), rgba(90, 185, 234, 0) 60%);
+}
+
+img#BPA_PNG {
+	width: 40%;
+	margin-left: 30%;
+	margin-right: 30%;
+	border-radius: 30px;
+	padding: 1em;
+	box-shadow: 1px 1px 15px black;
+}
+
+
+p {
+	line-height: 1.3em;
+	font-size: 1.2em;
+	text-indent: 30px;
+}
+
+#SideNav ul {
+	padding: 0px;
+}
+
+#SideNav {
+	padding: 12px;
+	background-color: rgba(86, 128, 233, 1);
+    border-radius: 5px 25px 5px 25px;
+	position: relative;
+	box-shadow: 1px 1px 15px black inset;
+}
+
+#SideNav a {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	padding: 0.4em;
+	color: Black;
+}
+
+h1#Foot {
+	clear: both;
+}
+
+img#Emblem {
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+#SideNav li {
+	list-style-type: none;
+	background-color: rgba(136, 96, 208, 0.8);
+	box-shadow: 1px 1px 2.5px black;
+}
+
+#SideNav ul {
+	box-shadow: 1px 1px 20px black;
+	border-radius: 30px;
+	background-color: rgba(136, 96, 208, 0.8);
+}
+
+#SideNav li:hover {
+	background-color: rgb(230, 118, 247);
+}
+
+#SideNav li:First-Of-Type {
+	border-radius: 30px 30px 0px 0px;
+
+}
+
+#SideNav li:Last-Of-Type {
+	border-radius: 0px 0px 30px 30px;
+}
+
+#SideNavParent {
+    background-image: radial-gradient(rgb(66, 116, 130) 70%,#8860D0);
+	border-radius: 5px 30px 5px 30px;
+	padding: 10px;
+	box-shadow: 8px 8px 15px black;
+	margin-right: 1em;
+}
+
+#Col {
+	background-color: rgba(38, 117, 226, 0.8);
+	border-radius: 30px;
+	padding: 20px;
+	box-shadow: 1px 1px 30px black;
+	display: block;
+}
+
+/* Nav Styles */
+nav 
+{
+    width: 100%;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgba(86, 128, 233, 1), #8860D0 30%, rgba(86, 128, 233, 1), #8860D0 70%, rgba(86, 128, 233, 1) );
+	box-shadow: 5px 5px 15px black;
+}
+nav a
+{
+    background-image: radial-gradient(rgba(90, 185, 234, 0.9), rgba(90, 185, 234,0) 40% );
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    padding-Top: 2px;
+    padding-bottom: 2px;
+
+}
+
+nav ul
+{
+    display: table;
+    padding-left: 0px;
+}
+
+nav li 
+{
+    display: table-cell;
+    width: 1%;
+}
+
+li {
+	font-size: 1.3em;
+}
+
+h1, h2 {
+	font-family: Palatino, 'Palatino Linotype', Georgia;
+}
+
+h2#Final {
+	Text-align: center;
+}
+
+/* Division Styles */
+
+
+/* Footer Styles */
+footer 
+{
+    display: block;
+    clear: both;
+    border-radius: 30px;
+    background-color: linear-gradient(to right, #8860D0, #5AB9EA);
+}
+
+footer p 
+{
+    text-align: center;
+    padding: 0.3% 0.3% 0.3% 0.3%;
+}

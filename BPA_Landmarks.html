@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--
+	   BPA Website
+	   Author: Jacob Doerge, Joey Georgio, Jacob Hughes.
+	   Date:   10/5/18
+	   
+	   Filename: BPA_Landmarks.html
+	   -->
+
+
+		<meta charset="utf-8" />
+		<title> BPA </title>
+		<link href="BPA_grids.css" rel="stylesheet" />
+		<link href="BPA_styles.css" rel="stylesheet" />
+		<link href="BPA_Landmarks_Styles.css" rel="stylesheet" />
+		
+	</head>
+
+    <header>
+	<div class="icon-bar">
+		  <a href="https://www.facebook.com/businessprofessionalsofamerica/"><img src="face.png" alt="FaceBook"/></a> 
+		  <a href="https://twitter.com/National_BPA"><img src="twit.png" alt="Twitter"/></a> 
+		  <a href="https://www.linkedin.com/company/business-professionals-of-america/"><img src="link.png" alt="Linked-In"/></a>
+		  <a href="https://www.youtube.com/businessprofessionalsamerica"><img src="you.png" alt="Youtube"/></a> 
+		  <a href="https://www.instagram.com/bpanational/"><img src="insta.png" alt="Instagram"/></a> 
+	</div>
+		<img src="BPA.png" alt="" id="BPA_PNG"/>
+        <nav>
+            <ul>
+                <li><a href="BPA.html">Home</a></li>
+                <li><a href="BPA_Nav.html">Transportation</a></li>
+                <li><a href="BPA_Landmarks.html">Landmarks</a></li>
+                <li><a href="BPA_Dress.html">BPA Dress Code</a></li>
+            </ul>
+        </nav>
+    </header>
+	<body>
+		<div class="row" id="WH">
+			<div class="col-1-2"/>
+				<h1>The White House</h1>
+					<p>The White House is the official residence of the president of the United States and has been so ever since John Adams’ presidency in 1800. 
+					It is located at 1600 Pennsylvania Avenue NW in Washington D.C. Designed by the architect James Hoban, the White House serves as an iconic emblem of American patriotism and ingenuity with 132 rooms, 35 bathrooms and 6 levels in the building.
+					This includes 412 doors, 147 windows, 28 fireplaces, 8 staircases and 3 elevators.</p>
+			</div>
+			
+			<div class="col-1-2"/>
+				<img src="Whouse.jpg" alt=""/>
+			</div>
+		</div>
+		
+		<div class="row" id="WW2">
+			<div class="col-1-2"/>
+				<img src="WW2.jpg" alt=""/>
+			</div>
+			
+			<div class="col-1-2"/>
+				<h1>National World War II Memorial</h1>
+					<p>The World War II Memorial honors the sixteen million who served in the American armed forces, the more than 400,000 who died, and all who took part in the war on the home front. 
+					Symbolic of the defining event of the 20th Century, the memorial is a monument to the spirit, sacrifice, and determination of the United States at it’s people.
+					The monument itself consists of fifty-six pillars and two triumphant arches that surround the central fountain. It was dedicated on the twenty-ninth of May, 2004 by president George W. Bush.</p>
+			</div>
+		</div>
+		
+		<div class="row" id="Martin">
+			<div class="col-1-2"/>
+				<h1>Martin Luther King Jr. Memorial</h1>
+					<p>The Martin Luther King Jr. Memorial can be found in the Western Potomac Park adjacent to the National Mall in Washington D.C.
+					It covers four acres of land and includes the Stone of Hope, a granite statue of the Civil Rights leader Martin Luther King Jr. carved by Lei Yixin.</p>
+			</div>
+			
+			<div class="col-1-2"/>
+				<img src="Martin.jpg" alt=""/>
+			</div>
+		</div>
+		
+		<div class="row" id="Wash">
+			<div class="col-1-2"/>
+				<img src="Washington.jpg" alt=""/>
+			</div>
+			
+			<div class="col-1-2"/>
+				<h1>The Washington Memorial</h1>
+					<p>This five-hundred and fifty-five foot tall marble obelisk was built in 1848 to honor America’s first president George Washington. This monument is situated nearly due East of the reflecting pool and at the near center of the National Mall.</p>
+			</div>
+		</div>
+		
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Return to top</button>
+		<script>
+				// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			document.getElementById("myBtn").style.display = "block";
+			} else {
+			document.getElementById("myBtn").style.display = "none";
+			}
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+			document.body.scrollTop = 0; // For Safari
+			document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+			}
+		</script>
+		
+	</body>
+    
+    <footer>
+        <p>&copy;BPA 2019</p>
+    </footer>
+
+
+
+
+
+
+
+</html>

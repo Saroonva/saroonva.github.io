@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+/* 
+	BPA Styles Sheet
+	Author: Jacob Doerge, Joey Georgio, Jacob Hughes.
+	Date: 10/5/18
+	
+	Filename: BPA_nav_styles.css
+
+*/
+
+/* Html/Body Styles */
+body {
+	height: 87em;
+}
+
+
+/* Nav Styles */
+p#Help {
+	line-height: 1.3em;
+	font-size: 1.2em;
+}
+
+p#Bus {
+	display: block;
+	line-height: 1.3em;
+	font-size: 1.2em;
+	background-color: rgba(38, 117, 226, 0.8);
+	border-radius: 30px;
+	padding: 10px;
+	box-shadow: 1px 1px 30px black;
+	text-align: center;
+}
+
+
+/* Button Styles */
+
+/* Marker Styles */
+
+a.markers {
+	position: absolute;
+	float: none;
+	clear: none;
+
+}
+
+a.markers img {
+	width: 60px;
+	height: 60px;
+}
+
+/* Button Styles */
+.btn {
+    border: 2px solid #84CEEB;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #5680E9;
+    color: #84CEEB;
+}
+
+.btn:hover {
+    background-color: #8860D0;
+    color: #84CEEB;
+}
+
+iframe#c2m_map_widget {
+	padding: 10px;
+	background-color: #8860D0;
+	border-radius: 20px;
+	position: absolute;
+	box-shadow: 0px 0px 30px black, 1px 1px 6px black inset;
+	height: 90%;
+	width: 80%;
+}
+
+
+/* Division Styles */
+
+div#map 
+{ 
+	position: absolute;
+}
+
+div#Control 
+{
+	padding: 12px;
+	background-color: rgba(86, 128, 233, 1);
+    border-radius: 5px 25px 5px 25px;
+	position: relative;
+	box-shadow: 1px 1px 15px black inset;
+}
+
+.accordion {
+  background-color: rgba(90, 185, 234);
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 25px;
+  transition: 0.4s;
+  border-radius: 20px;
+  display: block;
+}
+
+.active, .accordion:hover {
+  background-color: #8860D0; 
+}
+
+.active {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: rgba(136, 96, 208, 0.7);
+  overflow: hidden;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.Hide {
+	padding: 0px;
+	margin: 0px;
+}
+
+.Hide:hover {
+	color: rgba(90, 185, 234);
+	cursor: pointer;
+}
+
+.Hactive {
+}
+
+div#Control-Parent
+{
+	float: right;
+	position: relative;
+	background-image: radial-gradient(rgb(66, 116, 130) 70%,#8860D0);
+	border-radius: 5px 30px 5px 30px;
+	padding: 10px;
+	box-shadow: 8px 8px 15px black;
+}
+
+img#map 
+{
+	display: block;
+    border-radius: 20px;
+    background-color: #5680E9;
+    padding: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/* Footer Styles */
+
+
+

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--
+	   BPA Website
+	   Author: Jacob Doerge, Joey Georgio, Jacob Hughes.
+	   Date:   10/5/18
+	   
+	   Filename: BPA_Nav.html
+	   -->
+
+
+		<meta charset="utf-8" />
+		<title> BPA Nav </title>
+		<link href="BPA_grids.css" rel="stylesheet" />
+		<link href="BPA_styles.css" rel="stylesheet" />
+		<link href="BPA_nav_styles.css" rel="stylesheet" />
+		
+	</head>
+	<div class="icon-bar">
+	  <a href="https://www.facebook.com/businessprofessionalsofamerica/"><img src="face.png" alt="FaceBook"/></a> 
+	  <a href="https://twitter.com/National_BPA"><img src="twit.png" alt="Twitter"/></a> 
+	  <a href="https://www.linkedin.com/company/business-professionals-of-america/"><img src="link.png" alt="Linked-In"/></a>
+	  <a href="https://www.youtube.com/businessprofessionalsamerica"><img src="you.png" alt="Youtube"/></a> 
+	  <a href="https://www.instagram.com/bpanational/"><img src="insta.png" alt="Instagram"/></a> 
+	</div>
+    <header>
+		<img src="BPA.png" alt="" id="BPA_PNG"/>
+        <nav>
+            <ul>
+                <li><a href="BPA.html">Home</a></li>
+                <li><a href="BPA_Nav.html">Transportation</a></li>
+                <li><a href="BPA_Landmarks.html">Landmarks</a></li>
+                <li><a href="BPA_Dress.html">BPA Dress Code</a></li>
+            </ul>
+        </nav>
+    </header>
+	<body>
+		<div class="row">
+            <div class="col-1">
+				<p id="Bus">Bus Stops are on almost every street and are too numerous to map. Metrobus fare for regular routes is $2.00 using a SmarTrip® card or cash. The fare for express routes is $4.25 using a SmarTrip® card or cash. Fare for seniors and people with disabilities is $1.00 for regular routes, $2.10 on express routes. You must have exact change.</p>
+				<script type="text/javascript">
+				_c2m_user = "Saroonva";
+				_c2m_map = "Map1";
+				_c2m_widget_width = "1400";
+				_c2m_widget_height = "800";
+				document.write('<iframe id="c2m_map_widget" src="https://www.click2map.com/v2/'+_c2m_user+'/'+_c2m_map+'/widget" width="'+_c2m_widget_width+'" height="'+_c2m_widget_height+'" frameborder="0"></iframe>');
+				</script>
+			</div>
+			
+		</div>
+		
+		<div class="row">
+			<div class="col-1-5" id="Control-Parent">
+				<div id="Control">
+				<button class="accordion" id="acco">Help</button>
+				<div class="panel">
+					<script>
+					var acc = document.getElementsByClassName("accordion");
+					var i;
+
+					for (i = 0; i < acc.length; i++) {
+					  acc[i].addEventListener("click", function() {
+						this.classList.toggle("active");
+						var panel = this.nextElementSibling;
+						if (panel.style.display === "block") {
+						  panel.style.display = "none";
+						} else {
+						  panel.style.display = "block";
+						}
+					  });
+					}
+					</script>
+					<p id="Help">This map can help you navigate through the D.C. area! Navigate the Map using the mouse. <br /><br />
+					On the Right are all the different locations we have marked for you! <br /><br />
+					The Checkmarks next to the marker types will hide or show that group. <br /><br />
+					Clicking on the group name will expand or condense the locations within that group. <br /><br />
+					The Directions tab can be used to click on markers and give specific directions to get from one to the other.
+					</p>
+				</div>
+				  <p class="Hide" onclick="showStuff('Control-Parent', 'Control-Parent', this);" > Hide Help</p>
+				  <script>
+					var acc = document.getElementsByClassName("Hide");
+					var i;
+
+					for (i = 0; i < acc.length; i++) {
+					  acc[i].addEventListener("click", function() {
+						this.classList.toggle("Hactive");
+						document.getElementsById("acco").style.visibility = "hidden" 
+					}
+					</script>
+					<script>
+						function showStuff(id, text, btn) {
+						document.getElementById(id).style.display = 'block';
+						// hide the lorem ipsum text
+						document.getElementById(text).style.display = 'none';
+						// hide the link
+						btn.style.display = 'none';
+					}
+					</script>
+				</div>
+			</div>
+            
+        </div>
+		
+		<footer>
+			<p>&copy;BPA 2019</p>
+		</footer>
+		
+	</body>
+	
+
+
+
+
+
+
+
+
+</html>
