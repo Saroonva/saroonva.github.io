@@ -96,7 +96,8 @@ html {
 }
 body {
 	padding: 5% 5% 5% 5%;
-	background-image: radial-gradient(rgba(90, 185, 234, 0.5), rgba(86, 128, 233, 0.43), rgba(193, 200, 228, 0.4), rgba(193, 200, 228, 0)), url(BPA_Back.png);
+	/* background-image: radial-gradient(rgba(90, 185, 234, 0.5), rgba(86, 128, 233, 0.43), rgba(193, 200, 228, 0.4), rgba(193, 200, 228, 0)), url(BPA_back.png), url(crowd.png);	*/
+	background: url(BPA_back1.png) no-repeat local left top, url(crowd1.png) no-repeat local right top;
 	background-repeat: no-repeat;
 	background-size: auto;
 	border-radius: 20px;
@@ -109,7 +110,8 @@ body h1 {
 	padding:  1% 1% 1% 1%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 30px;
-	background-image: linear-gradient(to right, #8860D0, rgba(193, 200, 228, 0.1), rgba(90, 185, 234, 0) 60%);
+	background-image: linear-gradient(to right, #8860D0, rgba(193, 200, 228, 0.1) 75%, rgba(90, 185, 234, 0) 85%);
+	font-size: 2vw;
 }
 
 img#BPA_PNG {
@@ -118,14 +120,15 @@ img#BPA_PNG {
 	margin-right: 30%;
 	border-radius: 30px;
 	padding: 1em;
-	box-shadow: 1px 1px 15px black;
+	box-shadow: 1px 1px 30px black;
+	background-color: rgba(226, 226, 226, 0.8)
 }
 
 
 p {
-	line-height: 1.3em;
-	font-size: 1.2em;
-	text-indent: 30px;
+	line-height: 2.4vw;
+	font-size: 1.5vw;
+	text-indent: 3vw;
 }
 
 #SideNav ul {
@@ -146,6 +149,7 @@ p {
 	display: block;
 	padding: 0.4em;
 	color: Black;
+	font-size: 1.2vw;
 }
 
 h1#Foot {
@@ -215,6 +219,7 @@ nav a
     text-align: center;
     padding-Top: 2px;
     padding-bottom: 2px;
+	font-size: 1.4vw;
 
 }
 
@@ -231,11 +236,15 @@ nav li
 }
 
 li {
-	font-size: 1.3em;
+	font-size: 1.4vw;
 }
 
 h1, h2 {
 	font-family: Palatino, 'Palatino Linotype', Georgia;
+}
+
+h2 {
+	font-size: 1.5vw;
 }
 
 h2#Final {

@@ -18,13 +18,20 @@ body {
 /* Nav Styles */
 p#Help {
 	line-height: 1.3em;
-	font-size: 1.2em;
+	font-size: 1.5vw;
 }
+
+@media only screen(min-width: 500px) and (max-width: 1080px) {
+	div#Control-Parent {
+		width: 40%;
+	}
+}
+
 
 p#Bus {
 	display: block;
-	line-height: 1.3em;
-	font-size: 1.2em;
+	line-height: 2.7vw;
+	font-size: 1.3vw;
 	background-color: rgba(38, 117, 226, 0.8);
 	border-radius: 30px;
 	padding: 10px;
@@ -34,6 +41,10 @@ p#Bus {
 
 
 /* Button Styles */
+
+#acco {
+	font-size: 1.8vw;
+}
 
 /* Marker Styles */
 
